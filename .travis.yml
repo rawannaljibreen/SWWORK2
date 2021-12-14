@@ -1,0 +1,12 @@
+sudo: false 
+
+language: node j_s
+
+node j_s:
+  - node
+  
+instal:
+  - npm ci
+  
+script:
+  - npm test
